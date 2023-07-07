@@ -1,0 +1,29 @@
+{
+  "name": "appsync-dynamodb-lamda-datasource",
+  "version": "0.1.0",
+  "bin": {
+    "appsync-dynamodb-lamda-datasource": "bin/appsync-dynamodb-lamda-datasource.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "@types/node": "20.1.7",
+    "aws-cdk": "2.83.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.0.4"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-appsync-alpha": "^2.59.0-alpha.0",
+    "aws-cdk-lib": "2.83.1",
+    "aws-sdk": "^2.1400.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
